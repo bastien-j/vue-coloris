@@ -61,9 +61,9 @@ onMounted(() => {
     padding: 7px;
     border-radius: 6px;
     border: 1px solid hsl(0, 0%, 80%);
-    outline: none;
-    transition: 0.15s;
     font-size: 16px;
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(0, 0%, 20%);
   }
 
   &.previewOnly {
