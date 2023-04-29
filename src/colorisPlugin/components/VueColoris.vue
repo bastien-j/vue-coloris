@@ -29,6 +29,7 @@ onMounted(() => {
   const alreadyInitalised = document.querySelector('.clr-field') !== null
 
   if (!alreadyInitalised) {
+    Coloris.init()
     Coloris({
       ...globalOptions,
       onChange: onChangeCallback,
