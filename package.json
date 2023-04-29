@@ -1,6 +1,6 @@
 {
   "name": "vue-coloris",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue 3 wrapper for Coloris",
   "keywords": [
     "vue",
