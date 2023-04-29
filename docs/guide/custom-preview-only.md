@@ -20,8 +20,10 @@ To hide the text input, simply set the `previewOnly` option to `true`:
 ```
 
 :::raw
+<ClientOnly>
   <VueColoris
     :value="'pink'"
     :options="{ previewOnly: true }"
   />
+</ClientOnly>
 :::

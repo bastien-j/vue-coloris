@@ -50,5 +50,7 @@ Use the `VueColoris` component:
 ```
 
 :::raw
-<VueColoris :value="'gold'" />
+<ClientOnly>
+  <VueColoris :value="'gold'" />
+</ClientOnly>
 :::
