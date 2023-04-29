@@ -8,7 +8,7 @@
     "color picker",
     "coloris"
   ],
-  "homepage": "https://github.com/bastien-j/vue-coloris",
+  "homepage": "https://bastien-j.github.io/vue-coloris/",
   "bugs": {
     "url": "https://github.com/bastien-j/vue-coloris/issues"
   },
@@ -42,10 +42,10 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@melloware/coloris": "^0.19.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@melloware/coloris": "^0.19.1",
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/jsdom": "^21.1.1",
     "@types/node": "^18.16.3",
